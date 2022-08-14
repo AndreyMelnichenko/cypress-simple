@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'http://the-internet.herokuapp.com',
-    excludeSpecPattern: ["**/1-getting-started/*", "**/2-advanced-examples/*"]
+    excludeSpecPattern: ["**/1-getting-started/*", "**/2-advanced-examples/*"],
+    specPattern: ["**/e2e/*.js"]
   },
 });
